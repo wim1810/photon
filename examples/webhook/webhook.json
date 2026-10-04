@@ -1,0 +1,11 @@
+{
+  "event": "temp-alert",
+  "url": "https://example.com/webhook",
+  "requestType": "POST",
+  "json": {
+    "device": "{{PARTICLE_DEVICE_ID}}",
+    "published_at": "{{PARTICLE_PUBLISHED_AT}}",
+    "value": "{{value}}"
+  },
+  "mydevices": true
+}
